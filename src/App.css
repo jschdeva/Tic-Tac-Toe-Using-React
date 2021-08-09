@@ -1,0 +1,63 @@
+body{
+  background-color:mistyrose;
+}
+.intro{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-size: 22pt;
+  background-color:darkmagenta;
+  color:cyan;
+  margin-left: 3in;
+  margin-right: 3in;
+  margin-top: 0.5in;
+  margin-bottom: 0.5in;
+  border-radius: 20pt;
+}
+.board{
+  background-color: aquamarine;
+  width: 400px;
+  height: 400px;
+  align-content: center;
+  margin-left: 33%;
+  border-width: medium;
+  border-style: solid;
+  display: flex;
+  flex-direction: column;
+  border-color: pink;
+}
+.row{
+  flex: 33%;
+  display: flex;
+  flex-direction: row;
+  border-style: solid;
+}
+.box{
+  flex:33%;
+  border-style: solid;
+  text-align: center;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.box:active{
+  background-color: cyan;
+}
+
+.score{
+  background-color: aliceblue;
+  text-align: center;
+  margin-left: 4in;
+  margin-right: 4in;
+}
+
+.scoreheading{
+  font-size: x-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.undoredobody{
+  margin-left: 6in;
+}
+.undoredo{
+  font-size: x-large;
+  cursor: pointer;
+}
